@@ -1,0 +1,105 @@
+#order-standard_cart .products .product.webhost {
+	display: block;
+    line-height: 20px;
+    background-color: #FFF;
+    transition: all .2s ease-in-out;
+    margin-bottom: 20px;
+	box-shadow: 0 6px 20px rgba(0,0,0,.07);
+}
+#order-standard_cart .products .product.webhost h4 {
+	margin: 0;
+	padding: 15px;
+	background-color: #282B2D;
+}
+#order-standard_cart .products .product.webhost h4:after {
+	content: '';
+	clear: both;
+	display: table;
+}
+#order-standard_cart .products .product.webhost h4 span.title {
+    margin: 0;
+	color: #FFF;
+	font-weight: 400;
+    font-size: 1.2em;
+}
+#order-standard_cart .products .product.webhost header .qty {
+    font-size: 0.8em;
+    font-style: italic;
+    color: #888;
+}
+#order-standard_cart .products .product.webhost div.product-desc {
+    padding: 30px;
+	max-height: 340px;
+}
+#order-standard_cart .products .product.webhost div.product-desc li {
+	color: #666;
+	font-size: 18px;
+	list-style: none;
+	line-height: 30px;
+	margin-bottom: 5px;
+}
+#order-standard_cart .products .product.webhost div.product-desc li strong {
+	color: #191919;
+	font-weight: 600;
+	padding: 0;
+}
+#order-standard_cart .products .product.webhost div.product-desc br {
+	display: none;
+}
+#order-standard_cart .products .product.webhost span.feature-value {
+    font-weight: bold;
+}
+#order-standard_cart .products .product.webhost div.product-pricing span.price {
+    font-weight: 400;
+    line-height: 1.4;
+    color: #FFF;
+}
+#order-standard_cart .products .product.webhost div.product-pricing span.cycle {
+	font-size: 14px;
+    font-weight: 400;
+	color: #FFF;
+}
+#order-standard_cart .products .product.webhost div.product-pricing .price .user-balance-small {
+	font-size: 16px;
+}
+#order-standard_cart .products .product.webhost div.product-pricing .price .user-small {
+	font-size: 12px;
+    margin-left: 4px;
+    color: #999;
+}
+#order-standard_cart .products .product.webhost .product-btm {
+	border-top: 1px solid #DDD;
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    font-size: 0.8em;
+    border: 0;
+    text-align: center;
+}
+#order-standard_cart .products .product.webhost .product-btm:after {
+	content: '';
+	clear: both;
+	display: table;
+}
+
+#order-standard_cart .products .product.webhost .product-btm .btn {
+	padding: 10px 12px;
+	border-radius: 0;
+}
+
+i.dot {
+    background-color: #222;
+    width: 3px;
+    height: 3px;
+    display: block;
+    vertical-align: bottom;
+    border-radius: 100px;
+    position: relative;
+    bottom: -5px;
+}
+.input-group-addon {
+    border-color: #DFE3E8;
+}
+#order-standard_cart .domain-selection-options {
+	margin-bottom: 100px
+}
