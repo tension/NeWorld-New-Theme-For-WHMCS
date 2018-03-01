@@ -962,7 +962,7 @@
 					</div>
 				</div>
 				{/if}
-				{if $products}
+	            {if $products or $domains or $addons or $renewals}
                 <div class="panel-list">
                     <ul class="list-subtotal">
 	                    <li>
