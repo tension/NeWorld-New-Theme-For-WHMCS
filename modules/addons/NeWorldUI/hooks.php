@@ -33,15 +33,15 @@ add_hook('ClientAreaPage', 1, function ($vars){
 	
 	// 遍历数据库中读取的信息并且整理数组
 	foreach ($getData['setting']['result'] as $value) {
-        $setting['topCode'] = Tools::fileGet('header.tpl');
-        $setting['btmCode'] = Tools::fileGet('footer.tpl');
-        $setting['cssCode'] = Tools::fileGet('custom.css');
-        $setting['indexCode'] = Tools::fileGet('index.tpl');
+        $setting['topCode'] 	= Tools::fileGet('header.tpl');
+        $setting['homeCode'] 	= Tools::fileGet('index.tpl');
+        $setting['btmCode'] 	= Tools::fileGet('footer.tpl');
+        $setting['cssCode'] 	= Tools::fileGet('custom.css');
 	    // 放到之前声明的关联数组中
 	    $setting[$value['setting']] = $value['value'];
 	}
 
-	//print_r($setting);die();
+	//print_r($setting['homeCode']);die();
 
 	return [
 		'uiManager' => $setting,

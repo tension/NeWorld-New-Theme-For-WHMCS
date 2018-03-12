@@ -64,7 +64,7 @@ Powered By NeWorld.org
 
     {if $templatefile eq 'homepage'}
 		{* 自定义首页代码 *}
-    	{if $uiManager['indexCode']}
+    	{if $uiManager['homeCode']}
 			{include file="$template/includes/custom/index.tpl"}
 		{else}
         	{include file="$template/includes/common/index.tpl"}
