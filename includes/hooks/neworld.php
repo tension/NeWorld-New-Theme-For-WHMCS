@@ -11,7 +11,7 @@ if (!empty($_SESSION['uid'])) {
 	//用户中心首页 公告列表
 	add_hook('ClientAreaPageHome', 1, function ($vars) {
 	
-	    $response = Capsule::table('tblannouncements')->orderBy('id', 'DESC')->get();
+	    $response = Capsule::table('tblannouncements')->where('published', '1')->orderBy('id', 'DESC')->get();
 
 	    foreach ( $response as $key => $value ) {
 			//if ($key >=4) break;
